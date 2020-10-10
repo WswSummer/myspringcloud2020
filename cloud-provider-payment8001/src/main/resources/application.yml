@@ -8,9 +8,12 @@ spring:
     datasource:
         type: com.alibaba.druid.pool.DruidDataSource
         driver-class-name: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://127.0.0.1:3306/SSO?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
-        username: root
-        password: wsw19980801
+#        url: jdbc:mysql://127.0.0.1:3306/SSO?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+#        username: root
+#        password: wsw19980801
+        url: jdbc:mysql://39.107.80.231:3306/SSO?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+        username: HengTian
+        password: HengTian0.0
 
 mybatis:
     mapper-locations: classpath:mapper/*.xml

@@ -1,7 +1,9 @@
 package com.wsw.cloudproviderpayment8001.service.impl;
 
+import com.wsw.cloudproviderpayment8001.dao.PaymentDao;
 import com.wsw.cloudproviderpayment8001.entities.Payment;
 import com.wsw.cloudproviderpayment8001.service.PaymentService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 /**
@@ -11,13 +13,16 @@ import org.springframework.stereotype.Service;
  */
 @Service
 public class PaymentServiceImpl implements PaymentService {
+    @Autowired
+    private PaymentDao paymentDao;
+
     @Override
     public int create(Payment payment) {
-        return 0;
+        return paymentDao.create(payment);
     }
 
     @Override
     public Payment getPaymentById(Long id) {
-        return null;
+        return paymentDao.getPaymentById(id);
     }
 }
