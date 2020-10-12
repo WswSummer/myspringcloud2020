@@ -1,8 +1,8 @@
-package com.wsw.cloudproviderpayment8001.service.impl;
+package com.wsw.springcloud.service.impl;
 
-import com.wsw.cloudproviderpayment8001.dao.PaymentDao;
-import com.wsw.cloudproviderpayment8001.entities.Payment;
-import com.wsw.cloudproviderpayment8001.service.PaymentService;
+import com.wsw.springcloud.dao.PaymentDao;
+import com.wsw.springcloud.entities.Payment;
+import com.wsw.springcloud.service.PaymentService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

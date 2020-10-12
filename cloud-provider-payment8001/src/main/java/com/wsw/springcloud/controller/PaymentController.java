@@ -1,8 +1,8 @@
-package com.wsw.cloudproviderpayment8001.controller;
+package com.wsw.springcloud.controller;
 
-import com.wsw.cloudproviderpayment8001.entities.CommonResult;
-import com.wsw.cloudproviderpayment8001.entities.Payment;
-import com.wsw.cloudproviderpayment8001.service.PaymentService;
+import com.wsw.springcloud.entities.CommonResult;
+import com.wsw.springcloud.entities.Payment;
+import com.wsw.springcloud.service.PaymentService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

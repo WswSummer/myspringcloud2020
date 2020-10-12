@@ -1,4 +1,4 @@
-package com.wsw.cloudconsumerorder8000.config;
+package com.wsw.springcloud.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

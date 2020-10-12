@@ -1,4 +1,4 @@
-package com.wsw.cloudconsumerorder8000.entities;
+package com.wsw.springcloud.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,6 +1,6 @@
-package com.wsw.cloudproviderpayment8001.dao;
+package com.wsw.springcloud.dao;
 
-import com.wsw.cloudproviderpayment8001.entities.Payment;
+import com.wsw.springcloud.entities.Payment;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 

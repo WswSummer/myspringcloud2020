@@ -1,7 +1,7 @@
-package com.wsw.cloudconsumerorder8000.controller;
+package com.wsw.springcloud.controller;
 
-import com.wsw.cloudconsumerorder8000.entities.CommonResult;
-import com.wsw.cloudconsumerorder8000.entities.Payment;
+import com.wsw.springcloud.entities.CommonResult;
+import com.wsw.springcloud.entities.Payment;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;

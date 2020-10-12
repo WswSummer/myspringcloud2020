@@ -1,6 +1,6 @@
-package com.wsw.cloudproviderpayment8001.service;
+package com.wsw.springcloud.service;
 
-import com.wsw.cloudproviderpayment8001.entities.Payment;
+import com.wsw.springcloud.entities.Payment;
 import org.apache.ibatis.annotations.Param;
 
 /**
