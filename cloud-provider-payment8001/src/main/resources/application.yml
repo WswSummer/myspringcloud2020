@@ -11,9 +11,6 @@ spring:
         url: jdbc:mysql://127.0.0.1:3306/db2019?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
         username: root
         password: wsw19980801
-#        url: jdbc:mysql://39.107.80.231:3306/SSO?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
-#        username: HengTian
-#        password: HengTian0.0
 
 mybatis:
     mapper-locations: classpath:mapper/*.xml
