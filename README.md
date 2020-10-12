@@ -26,3 +26,19 @@
 
 https://github.com/OT-mt/cloud2020
 
+### 3. Eureka
+
+#### 3.1 单机
+
+![B99832CE-A704-4df5-9155-9B2E165A23DD](https://user-images.githubusercontent.com/34562805/95720635-14ea4780-0ca4-11eb-9c13-aed9a0c03204.png)
+
+![9D6C188C-643A-4d95-ABA1-E01545F71A2E](https://user-images.githubusercontent.com/34562805/95720685-229fcd00-0ca4-11eb-8a52-d58a2e53f535.png)
+
+![12859036-EA80-466b-B75A-533ACF603ECC](https://user-images.githubusercontent.com/34562805/95720718-2f242580-0ca4-11eb-97f6-969c8cb92acc.png)
+
+#### 3.2 集群
+
+![38140675-FCA7-4734-90D6-319060D9EC03](https://user-images.githubusercontent.com/34562805/95729125-fccbf580-0cae-11eb-9ace-ef3093f35c21.png)
+
+![819D2832-4034-4020-BE99-F0F018F26127](https://user-images.githubusercontent.com/34562805/95729205-1ff6a500-0caf-11eb-856e-ba4d212024e5.png)
+
