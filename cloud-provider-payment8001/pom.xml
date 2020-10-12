@@ -12,6 +12,11 @@
     </parent>
 
     <dependencies>
+        <!-- eureka-client -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
         <!-- 引入自定义的API通用包-->
         <dependency>
             <groupId>org.wsw</groupId>
