@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
  * @Description:
  */
 @Configuration
-public class OrderConfig {
+public class ApplicationContextConfig {
     @Bean
     public RestTemplate restTemplate(){
         return new RestTemplate();

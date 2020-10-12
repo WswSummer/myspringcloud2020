@@ -1,4 +1,4 @@
-package com.wsw.cloudproviderpayment8001.entities;
+package com.wsw.cloudconsumerorder8000.entities;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
