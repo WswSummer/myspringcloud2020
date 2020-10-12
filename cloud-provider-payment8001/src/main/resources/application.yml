@@ -17,4 +17,4 @@ spring:
 
 mybatis:
     mapper-locations: classpath:mapper/*.xml
-    type-aliases-package: com.wsw.cloudproviderpayment8001.entities
+    type-aliases-package: com.wsw.springcloud.entities
