@@ -68,3 +68,17 @@ https://github.com/OT-mt/cloud2020
 
 ![E8670868-D290-4896-A07E-F1E8C2F4F396](https://user-images.githubusercontent.com/34562805/95822591-cbaafe00-0d5e-11eb-8802-dcb4862b2d70.png)
 
+![B77B8E1D-575A-40fc-8278-5CB24DA0A632](https://user-images.githubusercontent.com/34562805/95828852-0e250880-0d68-11eb-9453-420307ed2944.png)
+
+![B77B8E1D-575A-40fc-8278-5CB24DA0A636](https://user-images.githubusercontent.com/34562805/95828901-2137d880-0d68-11eb-83d9-cc399e50f530.png)
+
+![62E97409-719D-4b66-B8CA-44DC5E2E45DD](https://user-images.githubusercontent.com/34562805/95829040-4f1d1d00-0d68-11eb-8dd8-82af8cc7a034.png)
+
+自己实现轮询算法：CAS+自旋锁
+
+### 8. OpenFeign
+
+![38273E6A-88D4-4b84-B683-54E2D9FDAE17](https://user-images.githubusercontent.com/34562805/95841017-74655780-0d77-11eb-953f-b442310361e1.png)
+
+![38273E6A-88D4-4b84-B683-54E2D9FDAE68](https://user-images.githubusercontent.com/34562805/95841060-81824680-0d77-11eb-923a-422eae4825e4.png)
+
