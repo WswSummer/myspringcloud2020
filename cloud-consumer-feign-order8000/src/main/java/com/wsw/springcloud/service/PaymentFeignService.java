@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 /**
  * @Author WangSongWen
  * @Date: Created in 16:58 2020/10/13
- * @Description:
+ * @Description: 使用Feign进行服务调用
  */
 @Service
 @FeignClient(value = "CLOUD-PAYMENT-SERVICE")

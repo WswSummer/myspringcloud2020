@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
 /**
  * @Author WangSongWen
  * @Date: Created in 11:04 2020/10/12
- * @Description:
+ * @Description: 使用RestTemplate进行服务调用
  */
 @RestController
 @Slf4j

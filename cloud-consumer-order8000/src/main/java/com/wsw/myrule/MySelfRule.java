@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 /**
  * @Author WangSongWen
  * @Date: Created in 14:40 2020/10/13
- * @Description:
+ * @Description: 负载均衡算法设置
  */
 @Configuration
 public class MySelfRule {
