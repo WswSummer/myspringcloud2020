@@ -49,6 +49,7 @@ public class PaymentController {
         }
     }
 
+    // 服务发现
     @GetMapping("/payment/discovery")
     public Object getDiscovery(){
         List<String> services = discoveryClient.getServices();
