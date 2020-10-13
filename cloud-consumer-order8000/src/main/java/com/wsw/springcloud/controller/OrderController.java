@@ -17,7 +17,7 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 @Slf4j
 public class OrderController {
-    private static final String PAYMENT_URL = "http://CLOUD-PAYMENT-SERVER";
+    private static final String PAYMENT_URL = "http://CLOUD-PAYMENT-SERVICE";
 
     @Autowired
     private RestTemplate restTemplate;
