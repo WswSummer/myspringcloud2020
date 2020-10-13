@@ -26,6 +26,10 @@
 
 https://github.com/OT-mt/cloud2020
 
+***
+
+注册中心
+
 ### 3. Eureka
 
 #### 3.1 单机
@@ -43,3 +47,24 @@ https://github.com/OT-mt/cloud2020
 ![819D2832-4034-4020-BE99-F0F018F26127](https://user-images.githubusercontent.com/34562805/95729205-1ff6a500-0caf-11eb-856e-ba4d212024e5.png)
 
 ![1EFC138A-43E4-4465-95A2-E7A99781AE74](https://user-images.githubusercontent.com/34562805/95730014-46691000-0cb0-11eb-97b3-8665d138fdd9.png)
+
+### 4. Zookeeper
+
+### 5. Consul
+
+![309BC44E-89EE-44a6-88DB-3C03D0936E33](https://user-images.githubusercontent.com/34562805/95822484-98686f00-0d5e-11eb-9417-0a556c155a0e.png)
+
+![662A3EDD-4599-4231-A99B-8EF2AE7DE786](https://user-images.githubusercontent.com/34562805/95822533-b0d88980-0d5e-11eb-9457-9c271f2ceb91.png)
+
+![38FADBC0-7B30-4f1c-BD31-7399D39EFB46](https://user-images.githubusercontent.com/34562805/95822560-bcc44b80-0d5e-11eb-9d2f-ea74b30cd395.png)
+
+
+
+***
+
+负载均衡、服务调用
+
+### 7. Ribbon
+
+![E8670868-D290-4896-A07E-F1E8C2F4F396](https://user-images.githubusercontent.com/34562805/95822591-cbaafe00-0d5e-11eb-8802-dcb4862b2d70.png)
+
