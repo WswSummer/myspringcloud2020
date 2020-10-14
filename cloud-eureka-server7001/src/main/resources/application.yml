@@ -12,6 +12,6 @@ eureka:
         # 设置与eureka server交互的地址 查询服务和注册服务都需要依赖这个地址
         service-url:
             # 单机
-            #defaultZone: http://eureka7001.com:7001/eureka/
+            defaultZone: http://eureka7001.com:7001/eureka/
             # 集群
-            defaultZone: http://eureka7002.com:7002/eureka/
+            #defaultZone: http://eureka7002.com:7002/eureka/
