@@ -1,5 +1,10 @@
-package com.wsw.springcloud;
+package com.wsw.springcloud.controller;
 
+import com.wsw.springcloud.service.PaymentService;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -8,6 +13,22 @@ import org.springframework.web.bind.annotation.RestController;
  * @Description:
  */
 @RestController
-
+@Slf4j
 public class OrderFeignController {
+    @Autowired
+    private PaymentService paymentService;
+
+    @GetMapping("/order/payment/hystrix/get/ok/{id}")
+    public String get_ok(@PathVariable("id") Long id){
+        String s = paymentService.get_ok(id);
+        log.info(s);
+        return s;
+    }
+
+    @GetMapping("/order/payment/hystrix/get/timeout/{id}")
+    public String get_timeout(@PathVariable("id") Long id){
+        String s = paymentService.get_timeout(id);
+        log.info(s);
+        return s;
+    }
 }

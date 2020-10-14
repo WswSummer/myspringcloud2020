@@ -18,6 +18,8 @@
         <module>cloud-eureka-server7001</module>
         <module>cloud-eureka-server7002</module>
         <module>cloud-consumer-feign-order8000</module>
+        <module>cloud-provider-hystrix-payment8001</module>
+        <module>cloud-consumer-feign-hystrix-order8000</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
