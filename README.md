@@ -82,3 +82,25 @@ https://github.com/OT-mt/cloud2020
 
 ![38273E6A-88D4-4b84-B683-54E2D9FDAE68](https://user-images.githubusercontent.com/34562805/95841060-81824680-0d77-11eb-923a-422eae4825e4.png)
 
+***
+
+服务降级 服务熔断 服务限流
+
+### 9. Hystrix断路器
+
+![36C55B01-BAC3-4449-BFAF-38C7D7C8AACA](https://user-images.githubusercontent.com/34562805/95948141-9536b700-0e22-11eb-8dc7-cc81893ffbcd.png)
+
+![18E55CA2-A06B-42ee-B6D5-58E70B8AF81F](https://user-images.githubusercontent.com/34562805/95948176-a8e21d80-0e22-11eb-9f47-c94d0bac2765.png)
+
+![AFF5775A-C6E0-4d08-8DDD-72E581BFB113](https://user-images.githubusercontent.com/34562805/95948214-ba2b2a00-0e22-11eb-941c-228be5c52ac1.png)
+
+![46E5C318-20E0-4485-AE45-D95E54A80F43](https://user-images.githubusercontent.com/34562805/95948234-c3b49200-0e22-11eb-829c-7ff9ffd02962.png)
+
+![D7622DC2-5FF4-4a26-A493-93E4525B64BD](https://user-images.githubusercontent.com/34562805/95948263-d038ea80-0e22-11eb-8cd6-8a03e925dc4f.png)
+
+![258A734B-9819-43d7-BAB9-5FFDE27EEE58](https://user-images.githubusercontent.com/34562805/95948293-e0e96080-0e22-11eb-9bd3-0721c2c7363f.png)
+
+![3796B15C-9895-464d-9135-400FB4B8E6F4](https://user-images.githubusercontent.com/34562805/95948315-eb0b5f00-0e22-11eb-80a1-b1fd2cba1349.png)
+
+
+
