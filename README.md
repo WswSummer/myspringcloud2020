@@ -102,9 +102,27 @@ https://github.com/OT-mt/cloud2020
 
 ![3796B15C-9895-464d-9135-400FB4B8E6F4](https://user-images.githubusercontent.com/34562805/95948315-eb0b5f00-0e22-11eb-80a1-b1fd2cba1349.png)
 
-![A8844D67-D87A-40ef-BCEB-7FE61D4534FF](https://user-images.githubusercontent.com/34562805/95972493-18690480-0e45-11eb-8870-0833a87baf1e.png)
+![A8844D67-D87A-40ef-BCEB-7FE61D4534F7](https://user-images.githubusercontent.com/34562805/95972493-18690480-0e45-11eb-8870-0833a87baf1e.png)
 
+![639E0D7C-DF2E-4ae8-BB6A-3AEA2B49F42D](https://user-images.githubusercontent.com/34562805/96084253-5b80b180-0ef1-11eb-9789-fe583bb0de72.png)
 
+![F30A926E-0B5A-4a54-A00F-8F7B1F6F683E](https://user-images.githubusercontent.com/34562805/96084316-77845300-0ef1-11eb-9de7-dae83032a4a4.png)
 
+***
 
+服务网关
+
+### 10. Gateway
+
+![073EDE4E-C2D7-475d-8102-7C390B4A878E](https://user-images.githubusercontent.com/34562805/96206785-3f861a00-0f9c-11eb-9808-e00382482095.png)
+
+![639E0D7C-DF2E-4ae8-BB6A-3AEA2B49F42D](https://user-images.githubusercontent.com/34562805/96206840-5cbae880-0f9c-11eb-8cf2-d6d312a96210.png)
+
+![F30A926E-0B5A-4a54-A00F-8F7B1F6F683E](https://user-images.githubusercontent.com/34562805/96206855-66dce700-0f9c-11eb-8423-0505975a3ac7.png)
+
+![15E08820-B0E8-42b4-A30A-C2365964D113](https://user-images.githubusercontent.com/34562805/96206889-7a884d80-0f9c-11eb-965b-2154d9dae808.png)
+
+![510F3459-7CFD-4f77-BEE1-4E25AED51D51](https://user-images.githubusercontent.com/34562805/96206906-8411b580-0f9c-11eb-9bdb-0a61735d4c95.png)
+
+![F5DDEAC5-B8E1-47e8-9D87-92265358D242](https://user-images.githubusercontent.com/34562805/96240470-86dbcd00-0fd3-11eb-8749-68feb3f3a26b.png)
 
