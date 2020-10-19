@@ -68,4 +68,9 @@ public class PaymentController {
 
         return discoveryClient;
     }
+
+    @GetMapping("/payment/port")
+    public String getServerPort(){
+        return serverPort;
+    }
 }
