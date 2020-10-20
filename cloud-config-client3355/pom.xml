@@ -22,6 +22,11 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
+		<!-- 消息总线RabbitMQ支持 -->
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-bus-amqp</artifactId>
+		</dependency>
 		<!-- 引入自定义的API通用包-->
 		<dependency>
 			<groupId>org.wsw</groupId>

@@ -12,6 +12,11 @@ spring:
             profile: dev  # 读取后缀名
             uri: http://localhost:3344  # 配置中心地址
 
+    rabbitmq:
+        host: localhost
+        port: 5672
+        username: guest
+        password: guest
 eureka:
     client:
         # 表示将自己注册进EurekaServer
