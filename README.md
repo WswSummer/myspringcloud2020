@@ -134,3 +134,10 @@ https://github.com/OT-mt/cloud2020
 
 ### 11. SpringCloud Config
 
+![F033BB2C-B230-45cd-91E0-BA9D1EE7DDED](https://user-images.githubusercontent.com/34562805/96554454-23121680-12e9-11eb-9822-759812c618f1.png)
+
+![4D15B616-ADDB-4698-8D27-44F8BDC29B4E](https://user-images.githubusercontent.com/34562805/96554501-31f8c900-12e9-11eb-932c-44eb4113ff0b.png)
+
+***
+
+ 消息总线
