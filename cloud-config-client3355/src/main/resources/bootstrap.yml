@@ -24,3 +24,9 @@ eureka:
             # 集群
             # defaultZone: http://eureka7001.com:7001/eureka, http://eureka7002.com:7002/eureka
 
+# 暴露监控端点
+management:
+    endpoints:
+        web:
+            exposure:
+                include: "*"
