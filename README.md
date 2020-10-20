@@ -126,3 +126,11 @@ https://github.com/OT-mt/cloud2020
 
 ![F5DDEAC5-B8E1-47e8-9D87-92265358D242](https://user-images.githubusercontent.com/34562805/96240470-86dbcd00-0fd3-11eb-8749-68feb3f3a26b.png)
 
+![07DD490A-9F6C-4da1-8537-6693F792951A](https://user-images.githubusercontent.com/34562805/96531719-d87aa500-12bc-11eb-8a6d-b495cc39198c.png)
+
+***
+
+配置中心
+
+### 11. SpringCloud Config
+
