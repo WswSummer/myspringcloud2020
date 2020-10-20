@@ -130,7 +130,7 @@ https://github.com/OT-mt/cloud2020
 
 ***
 
-配置中心
+分布式配置中心
 
 ### 11. SpringCloud Config
 
@@ -141,3 +141,18 @@ https://github.com/OT-mt/cloud2020
 ***
 
  消息总线
+
+### 12 SpringCloud Bus
+
+curl -X POST "http://localhost:3344/actuator/bus-refresh"
+
+![83384408-117F-4ec5-B6A6-FEE4A2435BFE](https://user-images.githubusercontent.com/34562805/96569393-a8062b80-12fb-11eb-8830-4255760aef88.png)
+
+![8301D9A9-52C4-4bc7-83F3-0C1A22A3A20C](https://user-images.githubusercontent.com/34562805/96569431-b5bbb100-12fb-11eb-8438-c08b70ef0686.png)
+
+![4257AF2A-B6BE-4a5e-8379-000EE59A756E](https://user-images.githubusercontent.com/34562805/96569457-beac8280-12fb-11eb-8631-f5a2c24c0c35.png)
+
+![57726C7D-C285-4c8d-9F0B-E0A991056F65](https://user-images.githubusercontent.com/34562805/96569538-db48ba80-12fb-11eb-9c34-980a651ba562.png)
+
+***
+
