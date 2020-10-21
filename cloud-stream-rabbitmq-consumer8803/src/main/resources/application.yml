@@ -1,0 +1,43 @@
+server:
+    port: 8802
+
+spring:
+    application:
+        name: cloud-stream-consumer
+
+    cloud:
+        stream:
+            binders:
+                defaultRabbit:
+                    type: rabbit
+                    enviroment:
+                        spring:
+                            rabbitmq:
+                                host: localhost
+                                port: 5672
+                                username: guest
+                                password: guest
+            bindings:
+                input:
+                    destination: studyExchange
+                    content-type: application/json
+                    binder: defaultRabbit
+                    group: wswA
+
+
+eureka:
+    client:
+        # 表示将自己注册进EurekaServer
+        register-with-eureka: true
+        # 是否从EurekaServer抓取已有的注册信息 单节点无所谓，集群必须设置为true才能配合ribbon使用负载均衡
+        fetch-registry: true
+        service-url:
+            # 单机
+            defaultZone: http://eureka7001.com:7001/eureka
+            # 集群
+            # defaultZone: http://eureka7001.com:7001/eureka, http://eureka7002.com:7002/eureka
+    instance:
+        instance-id: receiver-8802.com
+        prefer-ip-address: true  # 访问路径可以显示IP地址
+        lease-renewal-interval-in-seconds: 2  # 心跳时间间隔(默认30s)
+        lease-expiration-duration-in-seconds: 5  # 超过了5s间隔(默认90s)
