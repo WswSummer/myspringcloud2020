@@ -15,20 +15,19 @@ import java.util.UUID;
 /**
  * @Author WangSongWen
  * @Date: Created in 11:03 2020/10/21
- * @Description:
+ * @Description: 消息 生产者
  */
 @EnableBinding(Source.class)  // 消息的推送管道
 @Slf4j
 public class MessageProviderImpl implements IMessageProvider {
     @Autowired
-    private MessageChannel output;  // 消息发送广告
+    private MessageChannel output;  // 消息发送管道
 
     @Override
-    public String send() {
+    public void send() {
         String serial = UUID.randomUUID().toString();
         Message<String> message = MessageBuilder.withPayload(serial).build();
         output.send(message);
         log.info("serial: " + serial);
-        return null;
     }
 }

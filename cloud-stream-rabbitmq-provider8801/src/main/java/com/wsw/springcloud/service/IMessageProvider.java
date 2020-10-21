@@ -6,5 +6,5 @@ package com.wsw.springcloud.service;
  * @Description:
  */
 public interface IMessageProvider {
-    public String send();
+    public void send();
 }
