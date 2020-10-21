@@ -1,24 +1,28 @@
 server:
-    port: 3344
+    port: 8801
 
 spring:
     application:
-        name: cloud-config-center
+        name: cloud-stream-provider
 
     cloud:
-        config:
-            server:
-                git:
-                    uri: git@github.com:WswSummer15/springcloud-config.git
-                    search-paths:
-                        - springcloud-config
-            label: main
+        stream:
+            binders:
+                defaultRabbit:
+                    type: rabbit
+                    enviroment:
+                        spring:
+                            rabbitmq:
+                                host: localhost
+                                port: 5672
+                                username: guest
+                                password: guest
+            bindings:
+                output:
+                    destination: studyExchange
+                    content-type: application/json
+                    binder: defaultRabbit
 
-    rabbitmq:
-        host: localhost
-        port: 5672
-        username: guest
-        password: guest
 
 eureka:
     client:
@@ -31,10 +35,8 @@ eureka:
             defaultZone: http://eureka7001.com:7001/eureka
             # 集群
             # defaultZone: http://eureka7001.com:7001/eureka, http://eureka7002.com:7002/eureka
-
-# 暴露bus刷新配置的端点
-management:
-    endpoints:
-        web:
-            exposure:
-                include: "bus-refresh"
+    instance:
+        instance-id: send-8801.com
+        prefer-ip-address: true  # 访问路径可以显示IP地址
+        lease-renewal-interval-in-seconds: 2  # 心跳时间间隔(默认30s)
+        lease-expiration-duration-in-seconds: 5  # 超过了5s间隔(默认90s)
