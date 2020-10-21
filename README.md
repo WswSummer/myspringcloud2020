@@ -156,3 +156,33 @@ curl -X POST "http://localhost:3344/actuator/bus-refresh"
 
 ***
 
+消息驱动
+
+### 13. SpringCloud Stream
+
+屏蔽底层消息中间件的差异，降低切换成本，统一消息的编程模型
+
+Stream中的消息通信方式遵循发布-订阅模式 Topic主题进行广播
+
+![425E2782-DDA7-4e96-B52C-2F74D767F6B0](https://user-images.githubusercontent.com/34562805/96666093-ff9ea880-1388-11eb-9073-4b87bf794749.png)
+
+![2E75E795-5403-4898-94C4-E4F10AC2FD38](https://user-images.githubusercontent.com/34562805/96666113-0c230100-1389-11eb-8c4f-df66ea4e4a10.png)
+
+![813750A5-CAE5-4420-A18D-01E82A5AA2BE](https://user-images.githubusercontent.com/34562805/96666131-147b3c00-1389-11eb-94ea-649c0b2d57e2.png)
+
+消息分组 消息持久化
+
+![98691F28-8581-4716-A54D-7C16574DFA06](https://user-images.githubusercontent.com/34562805/96680815-cd04a800-13a8-11eb-8070-4aafd3cea147.png)
+
+***
+
+分布式请求链路跟踪
+
+### 14. SpringCloud Sleuth
+
+提供了一套完整的服务跟踪解决方案，在分布式系统中提供追踪解决方案并且兼容支持了Zipkin
+
+![47FAA2AD-BFFA-43ff-915F-6A9C89616A8B](https://user-images.githubusercontent.com/34562805/96684416-1efbfc80-13ae-11eb-8092-2a11ef1ae6e1.png)
+
+***
+
