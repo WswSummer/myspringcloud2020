@@ -1,5 +1,5 @@
 server:
-    port: 8802
+    port: 8803
 
 spring:
     application:
@@ -37,7 +37,7 @@ eureka:
             # 集群
             # defaultZone: http://eureka7001.com:7001/eureka, http://eureka7002.com:7002/eureka
     instance:
-        instance-id: receiver-8802.com
+        instance-id: receiver-8803.com
         prefer-ip-address: true  # 访问路径可以显示IP地址
         lease-renewal-interval-in-seconds: 2  # 心跳时间间隔(默认30s)
         lease-expiration-duration-in-seconds: 5  # 超过了5s间隔(默认90s)

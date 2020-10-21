@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 /**
  * @Author WangSongWen
  * @Date: Created in 13:40 2020/10/21
- * @Description: 消息 消费者
+ * @Description: 消息 消费者1
  */
 @Component
 @EnableBinding(Sink.class)

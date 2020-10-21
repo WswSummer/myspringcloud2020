@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 /**
  * @Author WangSongWen
  * @Date: Created in 13:40 2020/10/21
- * @Description: 消息 消费者
+ * @Description: 消息 消费者2
  */
 @Component
 @EnableBinding(Sink.class)
@@ -22,6 +22,6 @@ public class MessageReceiverController {
 
     @StreamListener(Sink.INPUT)
     public void MessageReceive(Message<String> message){
-        log.info("消费者1接受到消息: " + message.getPayload() + " serverPort: " + serverPort);
+        log.info("消费者2接受到消息: " + message.getPayload() + " serverPort: " + serverPort);
     }
 }
