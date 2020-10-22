@@ -30,6 +30,7 @@
         <module>cloud-alibaba-nacos-provider9010</module>
         <module>cloud-alibaba-nacos-provider9011</module>
         <module>cloud-alibaba-nacos-consumer9012</module>
+        <module>cloud-alibaba-nacos-config9013</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
