@@ -28,6 +28,8 @@
         <module>cloud-stream-rabbitmq-consumer8802</module>
         <module>cloud-stream-rabbitmq-consumer8803</module>
         <module>cloud-alibaba-nacos-provider9010</module>
+        <module>cloud-alibaba-nacos-provider9011</module>
+        <module>cloud-alibaba-nacos-consumer9012</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
