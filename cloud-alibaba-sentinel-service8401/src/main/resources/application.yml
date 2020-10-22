@@ -1,14 +1,18 @@
 server:
-    port: 9012
+    port: 8401
 
 spring:
     application:
-        name: nacos-order-consumer
+        name: sentinel-service
 
     cloud:
         nacos:
             discovery:
                 server-addr: localhost:8848  # 配置nacos地址
+        sentinel:
+            transport:
+                dashboard: localhost:9090  # sentinel dashboard地址
+                port: 8719  # sentinel api port
 
 management:
     endpoints:
