@@ -200,3 +200,12 @@ Stream中的消息通信方式遵循发布-订阅模式 Topic主题进行广播
 
 java -jar sentinel-dashboard-1.8.0.jar --server.port=9090
 
+流控 降级 热点 授权
+
+![E1811BBF-250B-47c6-9E48-F8E25A0B068C](https://user-images.githubusercontent.com/34562805/96977202-5524b200-154f-11eb-8137-b7e31c1e09fb.png)
+
+![F07393B4-EC81-4835-B2D1-5DF102C7D5D8](https://user-images.githubusercontent.com/34562805/96977223-5f46b080-154f-11eb-8456-7a1bd4e83d1a.png)
+
+![C0309C6C-340E-488b-92EA-0B8E246E5405](https://user-images.githubusercontent.com/34562805/96977251-68378200-154f-11eb-90c0-9e642aa98cea.png)
+
+![1A031E7F-9D52-4023-A5DD-D64306FAC516](https://user-images.githubusercontent.com/34562805/96977279-6ff72680-154f-11eb-92b0-04329cfd5b18.png)
