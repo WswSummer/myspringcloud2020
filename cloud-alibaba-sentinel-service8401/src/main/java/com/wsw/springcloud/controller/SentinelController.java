@@ -7,8 +7,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.concurrent.TimeUnit;
-
 /**
  * @Author WangSongWen
  * @Date: Created in 16:36 2020/10/22
