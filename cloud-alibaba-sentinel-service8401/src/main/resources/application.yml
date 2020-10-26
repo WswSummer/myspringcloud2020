@@ -13,6 +13,15 @@ spring:
             transport:
                 dashboard: localhost:9090  # sentinel dashboard地址
                 port: 8719  # sentinel api port
+            # sentinel配置持久化
+            datasource:
+                ds1:
+                    nacos:
+                        server-addr: localhost:8848
+                        dataId: sentinel-service
+                        groupId: DEFAULT_GROUP
+                        data-type: json
+                        rule-type: flow
 
 management:
     endpoints:
