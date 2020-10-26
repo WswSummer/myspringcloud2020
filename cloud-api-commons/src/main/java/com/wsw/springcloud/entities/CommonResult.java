@@ -19,7 +19,7 @@ public class CommonResult<T> implements Serializable {
     private String message;
     private T data;
 
-    CommonResult(Integer code, String message){
+    public CommonResult(Integer code, String message){
         this(code, message, null);
     }
 }
