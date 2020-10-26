@@ -4,6 +4,7 @@ import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.alibaba.csp.sentinel.slots.block.BlockException;
 import com.wsw.springcloud.entities.CommonResult;
 import com.wsw.springcloud.entities.Payment;
+import com.wsw.springcloud.handler.GlobalHandler;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -28,5 +29,11 @@ public class ResourceLimitController {
     @SentinelResource(value = "resourceLimit")
     public CommonResult urlLimit(){
         return new CommonResult(200, "按url限流测试OK", new Payment(2L, "www"));
+    }
+
+    @GetMapping("/globalhandler")
+    @SentinelResource(value = "globalhandler", blockHandlerClass = GlobalHandler.class, blockHandler = "handler1")
+    public CommonResult globalhandler(){
+        return new CommonResult(200, "测试OK", new Payment(3L, "sss"));
     }
 }
