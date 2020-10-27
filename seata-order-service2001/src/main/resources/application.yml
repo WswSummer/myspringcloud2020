@@ -1,0 +1,54 @@
+server:
+    port: 2001
+
+spring:
+    application:
+        name: seata-order-service
+
+    cloud:
+        nacos:
+            discovery:
+                server-addr: localhost:8848  # 配置nacos地址
+
+    datasource:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://127.0.0.1:3306/db2020?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
+        username: root
+        password: wsw19980801
+
+mybatis:
+    mapper-locations: classpath:mapper/*.xml
+    type-aliases-package: com.wsw.springcloud.domain
+
+
+seata:
+    enabled: true
+    tx-service-group: wsw_tx_group	# my_test_tx_group改成config.text中自己的事务分组名称
+    enable-auto-data-source-proxy: false
+    service:
+        vgroup-mapping:
+            wsw_tx_group: default # my_test_tx_group改成config.text中自己的事务分组名称
+        grouplist:
+            default: 127.0.0.1:8091
+        enable-degrade: false
+        disable-global-transaction: false
+    config:
+        type: nacos
+        nacos:
+            namespace:
+            serverAddr: 127.0.0.1:8848
+            group: SEATA_GROUP
+            username: ""
+            password: ""
+            cluster: default
+    registry:
+        type: nacos
+        nacos:
+            application: seata-server
+            server-addr: 127.0.0.1:8848
+            group : SEATA_GROUP
+            namespace:
+            username: ""
+            password: ""
+            cluster: default
